@@ -1,0 +1,35 @@
+.thankyou-page{
+    max-width: 350px;
+    background-color: var(--css-dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 125px auto;
+}
+.thankyou-logo{
+    margin: 0.5rem 0 1rem 0;
+}
+.rating-logo{
+    color: var(--css-orange);
+    /* background-color: hsla(var(--css-white), 0.1); */
+    background-color: hsla(0, 0%, 100%, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    margin: 0.5rem auto;
+    /* opacity: 0.1; */
+}
+.thankyou{
+    color: var(--css-white);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+.thankyou-text{
+    color: var(--css-light-grey);
+    font-weight: 400;
+}
