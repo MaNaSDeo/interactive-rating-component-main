@@ -9,6 +9,7 @@
     width: 3rem;
     height: 3rem;
     background-color: hsla(0, 0%, 100%, 0.1);
+    /* background-color: hsla(var(--css-white),0.1); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +37,6 @@
     margin: 2rem auto;
 }
 .rating{
-    /* background-color: var(--css-light-grey); */
     background-color: hsla(0, 0%, 100%, 0.1);
     color: var(--css-white);
     height: 3rem;
